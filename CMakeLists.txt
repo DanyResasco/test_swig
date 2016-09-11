@@ -33,7 +33,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/Modules/")
 
 # ADD_EXECUTABLE(klampt_controller main.cpp)
 
-ADD_LIBRARY(test_dany test_dany_code.c)
+ADD_LIBRARY(test_dany test_dany_code.cpp)
 #                                       example_klampt_controller.h
 #                                       src/KlamptController.cpp
 #                                       include/KlamptController.h
@@ -81,7 +81,7 @@ if(SWIG_FOUND)
         execute_process(COMMAND ${PYTHON_EXECUTABLE}
             -c "from distutils import sysconfig; print(sysconfig.get_python_lib(1,0,prefix=''))"
         OUTPUT_VARIABLE PYTHON_INSTDIR OUTPUT_STRIP_TRAILING_WHITESPACE )
-        install(FILES ${CMAKE_CURRENT_BINARY_DIR}/test_dany.py DESTINATION ${PYTHON_INSTDIR} )
+        install(FILES ${CMAKE_CURRENT_BINARY_DIR}/Exampletest_dany.py DESTINATION ${PYTHON_INSTDIR} )
         install(TARGETS _${target_name} DESTINATION ${PYTHON_INSTDIR} )
 
 endif(SWIG_FOUND)
