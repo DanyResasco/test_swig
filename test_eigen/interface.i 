@@ -1,0 +1,7 @@
+/* File : example.i */
+%module Exampletest
+%{
+#include "wrapper_example.h"
+%}
+/* Wrap a function taking a pointer to a function */
+%include "wrapper_example.h"

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -O3   -shared -Wl,-soname,_FooClass.so -o _FooClass.so CMakeFiles/_FooClass.dir/example_wrapper.cpp.o  -L/usr/lib/python2.7 -lboost_python -Wl,-rpath,/usr/lib/python2.7 
