@@ -1,2 +1,0 @@
-/home/daniela/Projects/Tutorial_python/Test_import_c++/Test_bb/CMakeFiles/_Exampletest_dany_bb.dir
-/home/daniela/Projects/Tutorial_python/Test_import_c++/Test_bb/CMakeFiles/test_dany_bb.dir

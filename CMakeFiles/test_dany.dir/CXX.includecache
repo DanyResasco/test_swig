@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniela/Projects/Tutorial_python/Test_import_c++/Test_ok/test_swig/test_dany_code.cpp
+test_dany_code.h
+-
+
+test_dany_code.h
+

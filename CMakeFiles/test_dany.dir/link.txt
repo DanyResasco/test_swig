@@ -1,0 +1,2 @@
+/usr/bin/ar cr libtest_dany.a  CMakeFiles/test_dany.dir/test_dany_code.cpp.o
+/usr/bin/ranlib libtest_dany.a
