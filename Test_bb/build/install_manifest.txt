@@ -1,0 +1,3 @@
+/usr/local/lib/libtest_dany_bb.so
+/usr/local/lib/python2.7/dist-packages/Exampletest_dany_bb.py
+/usr/local/lib/python2.7/dist-packages/_Exampletest_dany_bb.so
